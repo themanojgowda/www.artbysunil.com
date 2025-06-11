@@ -1,19 +1,38 @@
-HTTrack3.49-2+htsswf+htsjava launched on Fri, 06 Jun 2025 00:09:25 at https://www.monamekkawi.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0c8R3H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.monamekkawi.com/ -O1 "C:\Users\Manu\Documents\httrack websites\ssd" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
-
-Information, Warnings and Errors reported for this mirror:
-note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
-	such as username/password authentication for websites mirrored in this project
-	do not share these files/folders if you want these information to remain private
-
-00:09:37	Error: 	"Not Found" (404) at link https://www.monamekkawi.com/s (from https://www.monamekkawi.com/)
-00:09:37	Error: 	"Not Found" (404) at link https://www.monamekkawi.com/t (from https://www.monamekkawi.com/)
-00:10:48	Error: 	"Not Found" (404) at link https://www.monamekkawi.com/api/ (from https://www.monamekkawi.com/)
-00:10:48	Error: 	"Not Found" (404) at link https://www.monamekkawi.com/envelope/ (from https://www.monamekkawi.com/)
-00:10:48	Error: 	"Not Found" (404) at link https://www.monamekkawi.com/feed.xml (from https://www.monamekkawi.com/)
-00:10:48	Error: 	"Bad Request" (400) at link https://www.monamekkawi.com/decodeURIComponent(e (from https://www.monamekkawi.com/)
-00:10:48	Error: 	"Not Found" (404) at link https://www.monamekkawi.com/c (from https://www.monamekkawi.com/resume)
-00:10:48	Error: 	"Not Found" (404) at link https://www.monamekkawi.com/media/emptystate.85a4add5.svg (from https://www.monamekkawi.com/about-3)
-
-HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 23 seconds : 194 links scanned, 185 files written (10125483 bytes overall) [3746797 bytes received at 45142 bytes/sec], 8216688 bytes transferred using HTTP compression in 33 files, ratio 20%, 5.8 requests per connection
-(8 errors, 0 warnings, 0 messages)
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 06 Jun 2025 00:09:25 at https://www.monamekkawi.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0c8R3H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.monamekkawi.com/ -O1 "C:\Users\Manu\Documents\httrack websites\ssd" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+
+
+Information, Warnings and Errors reported for this mirror:
+
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+
+	such as username/password authentication for websites mirrored in this project
+
+	do not share these files/folders if you want these information to remain private
+
+
+
+00:09:37	Error: 	"Not Found" (404) at link https://www.monamekkawi.com/s (from https://www.monamekkawi.com/)
+
+00:09:37	Error: 	"Not Found" (404) at link https://www.monamekkawi.com/t (from https://www.monamekkawi.com/)
+
+00:10:48	Error: 	"Not Found" (404) at link https://www.monamekkawi.com/api/ (from https://www.monamekkawi.com/)
+
+00:10:48	Error: 	"Not Found" (404) at link https://www.monamekkawi.com/envelope/ (from https://www.monamekkawi.com/)
+
+00:10:48	Error: 	"Not Found" (404) at link https://www.monamekkawi.com/feed.xml (from https://www.monamekkawi.com/)
+
+00:10:48	Error: 	"Bad Request" (400) at link https://www.monamekkawi.com/decodeURIComponent(e (from https://www.monamekkawi.com/)
+
+00:10:48	Error: 	"Not Found" (404) at link https://www.monamekkawi.com/c (from https://www.monamekkawi.com/resume)
+
+00:10:48	Error: 	"Not Found" (404) at link https://www.monamekkawi.com/media/emptystate.85a4add5.svg (from https://www.monamekkawi.com/about-3)
+
+
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 23 seconds : 194 links scanned, 185 files written (10125483 bytes overall) [3746797 bytes received at 45142 bytes/sec], 8216688 bytes transferred using HTTP compression in 33 files, ratio 20%, 5.8 requests per connection
+
+(8 errors, 0 warnings, 0 messages)
+
