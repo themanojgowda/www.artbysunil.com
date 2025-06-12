@@ -1,0 +1,94 @@
+/* Base Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #000;
+  overflow-x: hidden;
+}
+
+/* General Layout Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 8px 14px;
+  color: black;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background-color: #eaeaea;
+}
+
+/* Responsive Typography & Layout */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 1.6em;
+    text-align: center;
+  }
+
+  .container {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav a {
+    font-size: 0.95em;
+    padding: 6px 10px;
+  }
+
+  h1 {
+    font-size: 1.3em;
+  }
+
+  p {
+    font-size: 0.95em;
+  }
+}
+
+/* Image Responsiveness */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Section spacing */
+section {
+  margin-bottom: 30px;
+}
