@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Responsive Background Video</title>
+  <title>SUNIL CHANDANPRAKASH SINGH</title>
   <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Lato:wght@700&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -31,7 +31,6 @@
     /* NAV BASE */
     nav {
       background: white;
-      border-bottom: 1px solid #ccc;
       margin-top: 24px; /* Add space above the menu */
     }
 
@@ -240,8 +239,24 @@
       color: #000000;
       text-align: center;
       margin-bottom: 2rem;
-      text-shadow: 1px 1px 6px rgba(0,0,0,0.5);
-       font-weight: bold;
+      font-weight: bold;
+      word-break: normal;
+      white-space: normal;
+      display: block;
+    }
+    @media (max-width: 768px) {
+      .subtitle {
+        font-size: 4.5vw;
+        word-break: normal;
+        white-space: normal;
+        text-align: center;
+      }
+      header {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
     }
     .nav-container {
       width: 100%;
@@ -298,13 +313,22 @@
       letter-spacing: 0.5px;
       line-height: 1.1;
       text-shadow: 2px 2px 12px rgba(0,0,0,0.7);
-      display: inline-block;
+      display: block;
       text-transform: uppercase;
       word-break: normal;
-      white-space: nowrap;
+      white-space: normal; /* Allow wrapping, but not breaking words */
       text-align: center;
       hyphens: manual;
       overflow-wrap: normal;
+    }
+    @media (max-width: 768px) {
+      .l7_2fn.wixui-button__label {
+        font-size: 4.5vw !important;
+        padding: 0 0.5rem;
+        word-break: normal;
+        white-space: normal;
+        text-align: center;
+      }
     }
     .nav-dropdown {
       position: absolute;
@@ -399,10 +423,11 @@
         padding: 1rem;
       }
       .l7_2fn.wixui-button__label {
-        font-size: 7vw !important;
+        font-size: 4.5vw !important;
         padding: 0 0.5rem;
-        word-break: break-word;
+        word-break: normal;
         white-space: normal;
+        text-align: center;
       }
       .comp-jlzy9p59 {
         width: 100%;
@@ -653,7 +678,7 @@
         <span class="l7_2fn wixui-button__label">SUNIL CHANDANPRAKASH SINGH</span>
       </a>
     </div>
-    <div class="subtitle">A R T  &nbsp;   D I R E C T O R</div>
+    <div class="subtitle">ART &nbsp;DIRECTOR</div>
   </header>
   
   <main class="PAGES_CONTAINER">
@@ -679,22 +704,9 @@
             <div class="diamond"><img src="image_assets/POSTER_THE_EMPIRE.jpg" alt="POSTER_THE_EMPIRE"></div>
           </div>
           <div class="row row-3">
-            <div class="diamond"><img src="image_assets/POSTER_THE_TRIAL.png" alt="POSTER_THE_TRIAL"></div>
-            <div class="diamond"><img src="image_assets/Screenshot 2025-06-02 195604.png" alt="Screenshot"></div>
-            <div class="diamond"><img src="image_assets/Screenshot 2025-06-02 195642.png" alt="Screenshot"></div>
-          </div>
-          <div class="row row-2">
-            <div class="diamond"><img src="image_assets/SUNIL SINGH PORTFOLIO (1)_page-0013.jpg" alt="Page 13"></div>
-            <div class="diamond"><img src="image_assets/SUNIL SINGH PORTFOLIO (1)_page-0014.jpg" alt="Page 14"></div>
-          </div>
-          <div class="row row-3">
-            <div class="diamond"><img src="image_assets/SUNIL SINGH PORTFOLIO (1)_page-0015.jpg" alt="Page 15"></div>
-            <div class="diamond"><img src="image_assets/SUNIL SINGH PORTFOLIO (1)_page-0016.jpg" alt="Page 16"></div>
-            <div class="diamond"><img src="image_assets/SUNIL SINGH PORTFOLIO (1)_page-0017.jpg" alt="Page 17"></div>
-          </div>
-          <div class="row row-2">
-            <div class="diamond"><img src="image_assets/SUNIL SINGH PORTFOLIO (1)_page-0018.jpg" alt="Page 18"></div>
-            <div class="diamond"><!-- Empty for symmetry --></div>
+           <div class="diamond"><!-- Empty for symmetry --></div>
+           <div class="diamond"><img src="image_assets/POSTER_THE_TRIAL.png" alt="POSTER_THE_TRIAL"></div>
+           <div class="diamond"><!-- Empty for symmetry --></div>
           </div>
         </div>
       </section>
