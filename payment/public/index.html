@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Payment Portal</title>
+	<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+	<h1>Payment Portal</h1>
+	<div class="env-toggle">
+		<label>
+			<input type="radio" name="env" value="sandbox" checked> Sandbox
+		</label>
+		<label>
+			<input type="radio" name="env" value="production"> Production
+		</label>
+	</div>
+	<div class="auth-section">
+		<button id="fetch-token">Fetch Auth Token</button>
+		<span id="token-status"></span>
+	</div>
+	<div class="payment-section">
+		<button id="create-payment">Create Payment</button>
+		<button id="pay-iframe">Pay in IFrame</button>
+		<span id="payment-status"></span>
+	</div>
+	<div class="order-section">
+		<input type="text" id="order-id" placeholder="Order ID">
+		<button id="check-order">Check Order Status</button>
+		<span id="order-status"></span>
+	</div>
+	<div class="refund-section">
+		<input type="text" id="refund-order-id" placeholder="Order ID for Refund">
+		<button id="initiate-refund">Initiate Refund</button>
+		<span id="refund-status"></span>
+	</div>
+	<script src="https://mercury.phonepe.com/web/bundle/checkout.js"></script>
+	<script src="../api/pay.js"></script>
+</body>
+</html>
+    

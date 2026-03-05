@@ -1,0 +1,16 @@
+{
+	"name": "payment-module",
+	"version": "1.0.0",
+	"description": "PhonePe payment integration for www.artbysunil.com",
+	"main": "api/pay.js",
+	"scripts": {
+		"start": "echo 'No server script defined'",
+		"test": "echo 'No tests defined'"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^1.13.6"
+	}
+}
+
