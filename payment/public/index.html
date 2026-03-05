@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>Complete your Purchase</h2>
+    <p>Amount: ₹100</p>
+    <button id="payBtn">Pay Now with PhonePe</button>
+
+    <script>
+        document.getElementById('payBtn').onclick = async () => {
+            const btn = document.getElementById('payBtn');
+            btn.innerText = "Processing...";
+            
+            const response = await fetch('/api/pay', { method: 'POST' });
+            const data = await response.json();
+
+            if (data.url) {
+                window.location.href = data.url; // Redirect to PhonePe
+            } else {
+                alert("Payment failed to start.");
+                btn.innerText = "Pay Now";
+            }
+        };
+    </script>
+</body>
+</html>
